@@ -37,11 +37,11 @@ client.on('ready', async () => {
     const change = ['https://cdn.discordapp.com/attachments/1217329190035259414/1217334921383772291/IMG_0208.gif?ex=6628907e&is=66161b7e&hm=41e9ce0a128e9b164a0fa080b035b0e09700761f8b02edc569c91eceb3d3c2c7&']; //รูปใหญ่
      //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
-    const yyyt = ['✨Tiktok']; // ชื่อ button2
-    const ddds = ['https://www.tiktok.com/@pxxkkly?_t=8kdRaEhurQt&_r=1']; // ลิ้ง button1
+    const yyyt = ['✨Instagram']; // ชื่อ button2
+    const ddds = ['https://www.instagram.com/yoojiwuw_/?igsh=bHljdTAzMDd1ZzQ1&utm_source=qr']; // ลิ้ง button1
 
    const iooi = ['🐷Facebook']; // ชื่อ button 1
-   const iiio = ['https://www.facebook.com/orawan229?mibextid=PtKPJ9/?locale=th_TH&_rdc=1&_rdr']; // ลิ้ง button 2
+   const iiio = ['https://web.facebook.com/nnie.vongsidala?mibextid=LQQJ4d&_rdc=1&_rdr']; // ลิ้ง button 2
    const tyyy = yyyt[Math.floor(Math.random()*yyyt.length)]; // ชื่อ button 2
    const sddd = ddds[Math.floor(Math.random()*ddds.length)]; // ลิ้ง button 2
    const oooi = 
@@ -56,10 +56,11 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     const r = new Discord.RichPresence()
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
-      .setURL('https://www.youtube.com/watch?v=Xhh3_-JRnDc')
+      .setURL('https://www.youtube.com/watch?v=xRzbLQ_WKPs')
       .setState(`Discord`)
       .setName(`🎮`)
-      .setDetails(`Pxng`)
+      .setDetails(`っ My puppy  Dm 24/7  ੯∙̀͡ᗰ  ིྀ⁣
+I love you 3000`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)

@@ -59,8 +59,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setURL('https://www.youtube.com/watch?v=xRzbLQ_WKPs')
       .setState(`Discord`)
       .setName(`🎮`)
-      .setDetails(`っ My puppy  Dm 24/7  ੯∙̀͡ᗰ  ིྀ⁣
-I love you 3000`)
+      .setDetails(`っ My puppy  Dm 24/7 I love you 3000`)
       //.setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)

@@ -34,8 +34,8 @@ client.on('ready', async () => {
   setInterval(() => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
-    const change = ['https://cdn.discordapp.com/attachments/1227927155732774995/1227927385152684093/6CAECF6A-DC7E-47F6-A2EF-A4BD2D48D4EE.gif?ex=662a2f7e&is=6617ba7e&hm=1c4c756420069e4eb68c9d99315055384e4724712270b1f9272cd05942209343&']; //รูปใหญ่
-     //const poop = ['https://cdn.discordapp.com/attachments/1114551993499918438/1122462459710681170/1095697715238797403.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460817977395/1095697740543049819.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1122462460125921341/1095697719189844048.gif','https://cdn.discordapp.com/attachments/1114551993499918438/1116029023957561425/1110570045454696509.gif']; // รูปเล็ก
+    const change = ['https://cdn.discordapp.com/attachments/1227927155732774995/1235232657324114200/F39270F5-7FFF-4922-B9F7-854C14559872.gif?ex=6634484f&is=6632f6cf&hm=a62df0e37cd65d6c4228bf36a4a9152fbaa830c47649438b5da8bc76955f308e&']; //รูปใหญ่
+    const poop = ['https://cdn.discordapp.com/attachments/1227927155732774995/1235234269996257290/IMG_0432.jpg?ex=663449cf&is=6632f84f&hm=dd410112304345ad6e93b8a90a9096ed306a60dec916d9f2c79a21efcd159019&']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['⪩ kungYuna']; // ชื่อ button2
     const ddds = ['https://www.instagram.com/yoojiwuw_/?igsh=bHljdTAzMDd1ZzQ1&utm_source=qr']; // ลิ้ง button1
@@ -49,7 +49,7 @@ iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
     const ioii =
 iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
     //const popp =
-//poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
+poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
     const ssss = 
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
@@ -60,9 +60,9 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setState(`Discord`)
       .setName(`🎮`)
       .setDetails(`っ My puppy  Dm 24/7 I love you 3000`)
-      //.setAssetsSmallImage(`${popp}`) 
+      .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
-.setAssetsLargeText(`🕐 ${getTime()}  ${moment().format(' 📅 DD/MM/YYYY ')}`)
+.setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format(' ꒰ DD/MM/YYYY ')}`) ꒱
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
 

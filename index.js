@@ -60,7 +60,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setState(`🎮`)
       .setName(`Youtube`)
       .setDetails(`꒰𝗣𝗹𝗮𝘆 𝗴𝗮𝗺𝗲 𝗱𝗺 𝗺𝗲꒱ 𝟮𝟱/𝟳`)
-      //.setAssetsSmallImage(`${popp}`) 
+      .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format('• ꒰ DD/MM/YYYY ꒱')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)

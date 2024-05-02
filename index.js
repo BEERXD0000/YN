@@ -57,7 +57,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setApplicationId('1112701450150232085')
       .setType('STREAMING')
       .setURL('https://www.youtube.com/watch?v=xRzbLQ_WKPs')
-      .setState(`Discord`)
+      .setState(`Youtube`)
       .setName(`🎮`)
       .setDetails(`꒰𝗣𝗹𝗮𝘆 𝗴𝗮𝗺𝗲 𝗱𝗺 𝗺𝗲꒱ 𝟮𝟱/𝟳`)
       .setAssetsSmallImage(`${popp}`) 

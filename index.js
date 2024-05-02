@@ -67,8 +67,8 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
 .addButton(`${ioii}`,`${oooi}`)  
 
       .addButton(`${tyyy}`,`${sddd}`)
-.setStartTimestamp("1672545600" || Date.now())
-.setEndTimestamp("1704077999" || Date.now())
+//.setStartTimestamp("1672545600" || Date.now())
+//.setEndTimestamp("1704077999" || Date.now())
     client.user.setActivity(r);
   }, 8*1000); // อัพเดท ทุกๆ 7 วินาที
   console.log(`${client.user.username} Is Ready!`)
@@ -103,5 +103,4 @@ let options = {
   }
   function getTime() {
     return (new Date()).toLocaleString([], options).split(" ")[1].replaceAll(",", "");
-          }	
-
+          }

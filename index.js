@@ -62,7 +62,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setDetails(`꒰𝗣𝗹𝗮𝘆 𝗴𝗮𝗺𝗲 𝗱𝗺 𝗺𝗲꒱ 𝟮𝟱/𝟳`)
       .setAssetsSmallImage(`${popp}`) 
 .setAssetsLargeImage(`${ssss}`)
-.setAssetsLargeText(` ${getTime()}  ${moment().format('  DD/MM/YYYY ')}`) 
+.setAsset.setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format('• ꒰ DD/MM/YYYY ꒱')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
 

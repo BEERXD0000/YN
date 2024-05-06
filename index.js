@@ -34,8 +34,8 @@ client.on('ready', async () => {
   setInterval(() => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
-    const change = ['https://cdn.discordapp.com/attachments/1227927155732774995/1235232657324114200/F39270F5-7FFF-4922-B9F7-854C14559872.gif?ex=6634484f&is=6632f6cf&hm=a62df0e37cd65d6c4228bf36a4a9152fbaa830c47649438b5da8bc76955f308e&']; //รูปใหญ่
-    const poop = ['https://cdn.discordapp.com/attachments/1227927155732774995/1235234269996257290/IMG_0432.jpg?ex=663449cf&is=6632f84f&hm=dd410112304345ad6e93b8a90a9096ed306a60dec916d9f2c79a21efcd159019&']; // รูปเล็ก
+    const change = ['https://cdn.discordapp.com/attachments/1227927155732774995/1237055048643772556/IMG_0628.jpg?ex=663a40ca&is=6638ef4a&hm=8a37200f5a53d01ae80f218011122560260344b4bacbe38b7ca92629d471f291&']; //รูปใหญ่
+    const poop = ['https://cdn.discordapp.com/emojis/1152953111778967613.webp?size=96&quality=lossless']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['⪩ kungYuna']; // ชื่อ button2
     const ddds = ['https://www.instagram.com/yoojiwuw_/?igsh=bHljdTAzMDd1ZzQ1&utm_source=qr']; // ลิ้ง button1

@@ -35,7 +35,7 @@ client.on('ready', async () => {
     const moment = require('moment');
     const created = moment().format('YYYY-MM-DD HH:mm:ss ');
     const change = ['https://cdn.discordapp.com/attachments/1227927155732774995/1237055048643772556/IMG_0628.jpg?ex=663a40ca&is=6638ef4a&hm=8a37200f5a53d01ae80f218011122560260344b4bacbe38b7ca92629d471f291&']; //รูปใหญ่
-    const poop = ['https://cdn.discordapp.com/emojis/1152953111778967613.webp?size=96&quality=lossless']; // รูปเล็ก
+     //const poop = ['https://cdn.discordapp.com/emojis/1152953111778967613.webp?size=96&quality=lossless']; // รูปเล็ก
      //const change2 = ['']; // ชื่อสลับ
     const yyyt = ['⪩ kungYuna']; // ชื่อ button2
     const ddds = ['https://www.instagram.com/yoojiwuw_/?igsh=bHljdTAzMDd1ZzQ1&utm_source=qr']; // ลิ้ง button1
@@ -48,8 +48,8 @@ client.on('ready', async () => {
 iiio[Math.floor(Math.random()*iiio.length)]; // button 1 ใส่ลิ้ง
     const ioii =
 iooi[Math.floor(Math.random()*iooi.length)]; // button 1 ใส่ชื่อ
-    const popp =
-poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
+   //  const popp =
+ // poop[Math.floor(Math.random()*poop.length)]; // รูปเล็ก
     const ssss = 
 change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
     //const dwada = change2[Math.floor(Math.random()*change2.length)]; // ชื่อสลับคำ
@@ -61,7 +61,7 @@ change[Math.floor(Math.random()*change.length)]; // รูปใหญ่
       .setName(`Youtube`)
       .setDetails(`꒰𝗣𝗹𝗮𝘆 𝗴𝗮𝗺𝗲 𝗱𝗺 𝗺𝗲꒱ 𝟮𝟱/𝟳`)
       .setAssetsSmallImage(`${popp}`) 
-.setAssetsLargeImage(`${ssss}`)
+ // .setAssetsLargeImage(`${ssss}`)
 .setAssetsLargeText(`꒰ ${getTime()} ꒱ ${moment().format('• ꒰ DD/MM/YYYY ꒱')}`)
 .setAssetsSmallText(`ping : ${Math.round(client.ws.ping)}`)
 .addButton(`${ioii}`,`${oooi}`)  
